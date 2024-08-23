@@ -10,4 +10,6 @@ def find_multi(x,f):
         del_x = hess.T * first_derivative
         delta = sum( del_x**2 )
         x = x - del_x
+
+    print("Hello!")
     return x
